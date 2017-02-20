@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+#contenido{
+  width: 900px;
+  height: 100px;
+  background-color: #5b7989;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100%;
+  border-radius: 10px 10px 0 0;
+
+}
+.encabezado{
+  color: white;
+  text-shadow: 2px #02010a;
+  padding: 30px;
+  margin-top: 50px;
+  clear:both;
+
+}
+#menu{
+text-align: center;
+}
+ul li {
+float: right;
+display: block;
+padding: 0 20px;
+margin-right: 10px;
+
+}
+li a{
+  color: white;
+  text-decoration: none;
+
+}
+#central{
+  background-color: #82c3a6;
+  padding: 20px;
+  margin: 0;
+}
+#contenedor{
+  background-color: #d5c75f;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  padding-top: 0px;
+  display: flex;
+  -webkit-display: flex:
+}
+.sec-1{
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+.sec-2{
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+#libroverde:hover{
+transform:rotate(10deg);
+box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+
+#objetivos:hover{
+  transform: translateY(-5px);
+  transform: translateX(20px);
+  -webkit-transform: translateY(-5px);
+  -webkit-transform: translateX(20px);
+  box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+img{
+  box-shadow: #02010a;
+  border: 1px;
+/*div [class*="columna"]{
+  text-align: center;
+  padding: 20px;*/
+}
+#pie{
+  background-color: #C6d5c5;
+  display: flex;
+  border-radius: 0 0 10px 10px;
+}
+div [class*="cpie"]{
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+#marcha{
+  margin-top: 30px;
+}
+#marcha-1{
+filter: blur(10px);
+}
+#marcha-2, #marcha-4, #marcha-6 {
+  filter: grayscale(100%);
+}
+#marcha-3{
+filter: sepia(90%);
+}
+
+
+@media screen and (max-width: 468px) {
+  body{
+    width: 90%;
+  margin: auto;
+  }
+  #contenido{
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .encabezado{
+  padding: 0;
+
+  }
+  #menu{
+    height: 20px;
+  }
+  #central{
+    width: 100%;
+  }
+  img{
+    width: 90%;
+  }
+  #contenedor{
+    width: auto;
+    display: inline;
+   }
+   .sec-1{
+     width: 100%;
+     background-color: #d5c75f;
+   }
+   .sec-2{
+     width: 100%;
+     background-color: #d5c75f;
+   }
+   #pie{
+     width: auto;
+     display: inline;
+   }
+   div [class*="final-"]{
+     width: 100%;
+     background-color: #C6d5c5;
+   }
+   div [class*="redes-"]{
+     width: 15%;
+     background-color: #C6d5c5;
+   }
+
+}
