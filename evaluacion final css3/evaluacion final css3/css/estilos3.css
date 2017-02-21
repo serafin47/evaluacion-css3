@@ -78,7 +78,7 @@ box-shadow: 2px 2px 2px 2px #82c3a6;
   box-shadow: 2px 2px 2px 2px #82c3a6;
 }
 img{
-  box-shadow: #02010a;
+  box-shadow: 2px 2px #02010a;
   border: 1px;
 /*div [class*="columna"]{
   text-align: center;
@@ -91,7 +91,7 @@ img{
 }
 div [class*="cpie"]{
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding: 30px;
 }
 #marcha{
@@ -143,13 +143,17 @@ filter: sepia(90%);
      width: 100%;
      background-color: #d5c75f;
    }
+
+
    #pie{
      width: auto;
      display: inline;
+
    }
    div [class*="final-"]{
      width: 100%;
      background-color: #C6d5c5;
+
    }
    div [class*="redes-"]{
      width: 15%;
